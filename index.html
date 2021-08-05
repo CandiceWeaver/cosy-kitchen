@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <title>Kitchen Shop</title>
+</head>
+<body>     
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <ion-icon name="menu-sharp"></ion-icon>
+            </span>
+            <h3 class="logo">Cosy<span>Kitchen</span></h3>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <ion-icon name="cart-sharp"></ion-icon>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Kitchen Collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div>
+        <div class="products-center">
+            <!-- Products -->                      
+        </div>
+    </section>
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <ion-icon name="close-circle-sharp"></ion-icon>
+            </span>
+            <h2>your cart</h2>        
+            <div class="cart-content">
+                <!-- cart item start -->
+                <div class="cart-item">
+                    <img src="images/product-1.jpg" alt="product">
+                </div>
+                <h4>knife set</h4>
+                <h5>£9.00</h5>
+                <span class="remove-item">remove</span>
+            </div>
+            <div>
+                <ion-icon name="chevron-up-sharp"></ion-icon>
+                <p class="item-amount">1</p>
+                <ion-icon name="chevron-down-sharp"></ion-icon>
+            </div>
+                <!-- cart item end -->        
+            <div class="cart-footer">
+                <h3>your total : £<span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
