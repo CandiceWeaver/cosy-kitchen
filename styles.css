@@ -14,7 +14,7 @@
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* --------------- Navbar ---------------- */
@@ -67,7 +67,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("./images/hero-bg.jpg") center/cover no-repeat;
+  background: url('./images/hero-bg.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,7 +142,7 @@ body {
 .bag-btn:hover {
   color: var(--mainWhite);
 }
-.fa-shopping-cart {
+.cart-icon {
   margin-right: 0.5rem;
 }
 .img-container:hover .bag-btn {
@@ -151,8 +151,10 @@ body {
 .product-img {
   display: block;
   width: 100%;
-  min-height: 12rem;
+  height: 12rem;
   transition: var(--mainTransition);
+  object-fit: cover;
+  object-position: center;
 }
 .img-container:hover .product-img {
   opacity: 0.5;
@@ -250,8 +252,8 @@ body {
   color: var(--mainGrey);
   cursor: pointer;
 }
-.fa-chevron-up,
-.fa-chevron-down {
+.chevron-up-icon,
+.chevron-down-icon {
   color: var(--primaryColor);
   cursor: pointer;
 }
